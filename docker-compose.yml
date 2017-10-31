@@ -1,0 +1,13 @@
+version: '2'
+services:
+
+
+
+
+ rosbook:
+    image: python:3
+ 
+    volumes:
+       - .:/code
+    tty: true
+
